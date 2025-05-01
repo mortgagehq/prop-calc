@@ -128,7 +128,7 @@ def get_benchmark_indicator(metric_name, value, loan_interest_rate):
 col_title1, col_title2 = st.columns([1, 4])
 with col_title1:
     try:
-        st.image("/home/ubuntu/property_calculator_app/logo.png", width=150)
+        st.image("logo.png", width=150)
     except Exception as e:
         st.error(f"Could not load logo: {e}")
 with col_title2:
